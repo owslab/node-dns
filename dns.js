@@ -38,7 +38,7 @@ exports.resolveNs = client.resolveNs;
 exports.resolveCname = client.resolveCname;
 exports.reverse = client.reverse;
 
-var consts = require('native-dns-packet').consts;
+var consts = require('ows-native-dns-packet').consts;
 exports.BADNAME = consts.BADNAME;
 exports.BADRESP = consts.BADRESP;
 exports.CONNREFUSED = consts.CONNREFUSED;
