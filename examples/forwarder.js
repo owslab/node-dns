@@ -1,5 +1,5 @@
 var dns = require('../dns');
-var packet = require('native-dns-packet');
+var packet = require('ows-native-dns-packet');
 
 var SERVFAIL = packet.consts.NAME_TO_RCODE.SERVFAIL;
 

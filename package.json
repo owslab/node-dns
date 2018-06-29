@@ -1,11 +1,12 @@
 {
-  "name": "native-dns",
-  "version": "0.7.0",
+  "name": "ows-native-dns",
+  "version": "0.7.1",
   "authors": [
     "Timothy J Fontaine <tjfontaine@gmail.com> (http://atxconsulting.com)",
     "Greg Slepak <contact@taoeffect.com> (https://twitter.com/taoeffect)",
     "Roger Castells <rc@ataclick.net>",
-    "Matthieu Rakotojaona"
+    "Matthieu Rakotojaona",
+    "Giang Minh <giangndm@ows.vn>"
   ],
   "description": "Replacement for the core DNS module, includes server implementation",
   "keywords": [
@@ -31,7 +32,7 @@
   "dependencies": {
     "ipaddr.js": "~0.1.3",
     "native-dns-cache": "~0.0.2",
-    "native-dns-packet": "~0.1.1"
+    "ows-native-dns-packet": "^0.1.2"
   },
   "devDependencies": {
     "optimist": "",
